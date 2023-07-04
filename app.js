@@ -16,9 +16,9 @@ const rl = readline.createInterface({
 	output: process.stdout
 }); 
 // використовуємо методо question який очікує результатів
-rl.question('Was is das', (answer1) => {
-	rl.question('Wiss du', (answer2) => {
-		rl.question('Und du', (answer3) => {
+rl.question('Was is das ', (answer1) => {
+	rl.question('Wiss du ', (answer2) => {
+		rl.question('Und du ', (answer3) => {
             // після отримання результатів программа записує їх в консоль
 			console.log(`answer ist:?\n1. ${answer1}\n2. ${answer2}\n3. ${answer3}`);
 			rl.close();
